@@ -1,38 +1,116 @@
-.App {
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+  background: linear-gradient(45deg, #49a09d, #3c4cdf);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  max-height: 600px;
+  overflow-y: scroll;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn-new, .btn-edit {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 14%;
+  background-color: rgb(214, 42, 42);
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+}
+
+.btn-new{
+  bottom: 6%;
+}
+
+.btn-edit{
+  bottom: 13%;
+}
+
+.btn-new:hover, .btn-edit:hover{
+  color: rgb(214, 42, 42);
+  background-color: #fff;
+}
+
+.new-form, .edit-form{
+  background-color:rgba(255, 255, 255, 0.2);
+  color:#f1f1f1;
+  text-align: center;
+  position: absolute;
+  width: 1080px;
+  height: 80px;
+  border-collapse: collapse;
+  top: 12%;
+  left: 18.25%;
+  padding: 15px;
+  /* display: none; */
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o trilho da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor de fundo do trilho */
+  
+}
+
+/* Estilizando o polegar (a "alça" da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background: #55608f; /* Cor do polegar */
+  width: 5px;
+}
+
+/* Estilizando o polegar quando o usuário passa o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor do polegar no hover */
+}
+
+table {
+  width: 1100px;
+  height: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+thead th {
+  background-color: #55608f;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+tbody td {
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
 }

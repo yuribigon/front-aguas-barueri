@@ -1,0 +1,162 @@
+[
+    {
+        "id":1,
+        "cnpj":"62823257028291",
+        "razao_social":"Aguas Paraná LTDA",
+        "nome_fantasia":"Águas Paraná",
+        "contact":"Fernanda Lima",
+        "value":"10"
+    },
+    {
+        "id":2,
+        "cnpj":"12345678910111",
+        "razao_social":"Aguas São Paulo SA",
+        "nome_fantasia":"Águas SP",
+        "contact":"Paulo José",
+        "value":"20"
+    },
+    {
+        "id":3,
+        "cnpj":"12345678910112",
+        "razao_social":"Aguas Rio de Janeiro LTDA",
+        "nome_fantasia":"Águas Carioca",
+        "contact":"Fausto Silva",
+        "value":"30"
+    },
+    {
+        "id":4,
+        "cnpj":"12345678910113",
+        "razao_social":"Aguas Espirito Santo LTDA",
+        "nome_fantasia":"Águas Abençoada",
+        "contact":"Fernanda Silva",
+        "value":"15"
+    },
+    {
+        "id":5,
+        "cnpj":"12345678910114",
+        "razao_social":"Aguas Minas Gerais LTDA",
+        "nome_fantasia":"Águas Uai Sô",
+        "contact":"Samuel Rosa",
+        "value":"25"
+    },
+    {
+        "id":6,
+        "cnpj":"12345678910115",
+        "razao_social":"Aguas Rio Grande do Sul LTDA",
+        "nome_fantasia":"Águas Gaúcha",
+        "contact":"Fernando Bento",
+        "value":"35"
+    },
+    {
+        "id":7,
+        "cnpj":"12345678910116",
+        "razao_social":"Aguas Nordeste LTDA",
+        "nome_fantasia":"Águas Nordeste",
+        "contact":"Bartolomeu Vasco",
+        "value":"14"
+    },
+    {
+        "id":8,
+        "cnpj":"12345678910117",
+        "razao_social":"Aguas Amazonas LTDA",
+        "nome_fantasia":"Águas Amazonas",
+        "contact":"Yuri Bigon",
+        "value":"16"
+    },
+    {
+        "id":9,
+        "cnpj":"12345678910118",
+        "razao_social":"Aguas Fluminense LTDA",
+        "nome_fantasia":"Águas Fluminense",
+        "contact":"Abel Braga",
+        "value":"15"
+    },
+    {
+        "id":10,
+        "cnpj":"12345678910119",
+        "razao_social":"Aguas Campinas LTDA",
+        "nome_fantasia":"Águas Campinas",
+        "contact":"José Ferreira Neto",
+        "value":"10"
+    },
+    {
+        "id":11,
+        "cnpj":"12345678910120",
+        "razao_social":"Aguas Interior LTDA",
+        "nome_fantasia":"Águas Interior",
+        "contact":"Alexandre Augusto",
+        "value":"14"
+    },
+    {
+        "id":12,
+        "cnpj":"12345678910121",
+        "razao_social":"Aguas Molhadas LTDA",
+        "nome_fantasia":"Águas Molhadas",
+        "contact":"Flavio Fabiano",
+        "value":"11"
+    },
+    {
+        "id":13,
+        "cnpj":"12345678910122",
+        "razao_social":"Aguas Secas LTDA",
+        "nome_fantasia":"Águas Secas",
+        "contact":"Flavio Carioca",
+        "value":"15"
+    },
+    {
+        "id":14,
+        "cnpj":"12345678910123",
+        "razao_social":"Aguas de Março LTDA",
+        "nome_fantasia":"Águas de Março",
+        "contact":"Elis Regina",
+        "value":"25"
+    },
+    {
+        "id":15,
+        "cnpj":"12345678910124",
+        "razao_social":"Aguas Santo André LTDA",
+        "nome_fantasia":"Águas Santo André",
+        "contact":"José Luiz",
+        "value":"24"
+    },
+    {
+        "id":16,
+        "cnpj":"12345678910125",
+        "razao_social":"Aguas São Bernardo LTDA",
+        "nome_fantasia":"Águas SBC",
+        "contact":"Rosemeire Maria",
+        "value":"23"
+    },
+    {
+        "id":17,
+        "cnpj":"12345678910126",
+        "razao_social":"Aguas São Caetano LTDA",
+        "nome_fantasia":"Águas SCS",
+        "contact":"Anacleto Campanella",
+        "value":"17"
+    },
+    {
+        "id":18,
+        "cnpj":"12345678910127",
+        "razao_social":"Aguas Diadema LTDA",
+        "nome_fantasia":"Água Santa",
+        "contact":"Naldo Benny",
+        "value":"11"
+    },
+    {
+        "id":19,
+        "cnpj":"12345678910128",
+        "razao_social":"Aguas Ribeirão Pires LTDA",
+        "nome_fantasia":"Águas RP",
+        "contact":"Amaury Dias",
+        "value":"20"
+    },
+    {
+        "id":20,
+        "cnpj":"12345678910129",
+        "razao_social":"Aguas Rio Grande da Serra LTDA",
+        "nome_fantasia":"Águas RGS",
+        "contact":"Margarete dos Santos",
+        "value":"10"
+    }
+]
