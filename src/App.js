@@ -38,31 +38,44 @@ function App() {
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     useTable({ columns, data });
 
-  const newForm = document.querySelector('.new-form');
-  const editForm = document.querySelector('.edit-form');
-
-  function showForm() {
-    if(newForm.style.display === 'block'){
-      newForm.style.display = 'none';
-    } else {
-      newForm.style.display = 'block';
+    const newFormRef = React.useRef(null);
+    const editFormRef = React.useRef(null);
+  
+    function showForm() {
+      const newForm = newFormRef.current;
+      if (newForm.style.display === 'block') {
+        newForm.style.display = 'none';
+      } else {
+        newForm.style.display = 'block';
+      }
     }
-  }
-
-  function showEditForm() {
-    if(editForm.style.display === 'block'){
-      editForm.style.display = 'none';
-    } else {
-      editForm.style.display = 'block';
+  
+    function showEditForm() {
+      const editForm = editFormRef.current;
+      if (editForm.style.display === 'block') {
+        editForm.style.display = 'none';
+      } else {
+        editForm.style.display = 'block';
+      }
     }
-  }
+  
+    React.useEffect(() => {
+      const newForm = newFormRef.current;
+      const editForm = editFormRef.current;
+  
+      if (newForm && editForm) {
+        newForm.style.display = 'none';
+        editForm.style.display = 'none';
+      }
+    }, []);
+  
 
   return (
     <div className="App">
-      <div className="new-form">
+      <div ref={newFormRef} className="new-form">
         Novo cadastro
       </div>
-      <div className="edit-form">
+      <div ref={editFormRef} className="edit-form">
         Editar cadastro
       </div>
       <div className="container">
