@@ -46,7 +46,7 @@ body {
 }
 
 .btn-change-table{
-  bottom: 50%;
+  bottom: 40%;
 }
 
 .btn-new:hover, .btn-edit:hover, .btn-change-table:hover{
@@ -62,7 +62,7 @@ body {
 .new-form, .edit-form{
   background-color:rgba(255, 255, 255, 0.2);
   color:#f1f1f1;
-  text-align: center;
+  text-align: left;
   position: absolute;
   width: 1080px;
   height: 80px;
