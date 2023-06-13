@@ -9,17 +9,23 @@ body {
   font-family: sans-serif;
   font-weight: 100;
 }
+
+.logo{
+  position: absolute;
+  left:2%;
+  top: 3%;
+}
 .container {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 60vh;
+  left: 50vw;
   max-height: 600px;
   overflow-y: scroll;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
-.btn-new, .btn-edit {
+.btn-new, .btn-edit, .btn-change-table {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -39,9 +45,18 @@ body {
   bottom: 13%;
 }
 
-.btn-new:hover, .btn-edit:hover{
+.btn-change-table{
+  bottom: 50%;
+}
+
+.btn-new:hover, .btn-edit:hover, .btn-change-table:hover{
   color: rgb(214, 42, 42);
   background-color: #fff;
+}
+
+.btn-new:active, .btn-edit:active, .btn-change-table:active{
+  background-color: rgb(214, 42, 42);
+  color: #fff;
 }
 
 .new-form, .edit-form{
@@ -91,10 +106,9 @@ th, td {
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
-}
-th {
   text-align: center;
 }
+
 thead th {
   background-color: #55608f;
 }
