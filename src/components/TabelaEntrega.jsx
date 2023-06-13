@@ -15,6 +15,14 @@ function TabelaEntregas() {
           accessor: "date",
         },
         {
+          Header: "ID Pedido",
+          accessor: "idpedido",
+        },
+        {
+          Header: "Responsável",
+          accessor: "funcionario",
+        },
+        {
           Header: "Valor (m\u00b3)",
           accessor: "value",
         },

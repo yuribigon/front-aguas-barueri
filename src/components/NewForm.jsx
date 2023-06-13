@@ -35,10 +35,30 @@ function NewForm() {
     return (
         <div>
             <div ref={newFormRef} className="new-form">
-                Novo cadastro
+                Novo cadastro<br/><br/>
+                <label htmlFor="">Dado 1: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 2: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 3: </label>
+                <input type="text" /><br/>
+                <label htmlFor="">Dado 4: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 5: </label>
+                <input type="text" />
             </div>
             <div ref={editFormRef} className="edit-form">
-                Editar cadastro
+                Editar cadastro<br/><br/>
+                <label htmlFor="">Dado 1: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 2: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 3: </label>
+                <input type="text" /><br/>
+                <label htmlFor="">Dado 4: </label>
+                <input type="text" /><span> </span>
+                <label htmlFor="">Dado 5: </label>
+                <input type="text" />
             </div>
 
             <button id="btn-edit" className="btn-edit" onClick={showEditForm}>

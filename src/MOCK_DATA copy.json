@@ -1,104 +1,144 @@
 [
     {
         "id":1,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"123",
+        "funcionario":"José",
         "value":"10"
     },
     {
         "id":2,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"1234",
+        "funcionario":"José",
         "value":"20"
     },
     {
         "id":3,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"122354",
+        "funcionario":"Maria",
         "value":"30"
     },
     {
         "id":4,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Paulo",
         "value":"15"
     },
     {
         "id":5,
         "cnpj":"12345678910114",
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"25"
     },
     {
         "id":6,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"35"
     },
     {
         "id":7,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Francisco",
         "value":"14"
     },
     {
         "id":8,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Otávio",
         "value":"16"
     },
     {
         "id":9,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"15"
     },
     {
         "id":10,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Paulo",
         "value":"10"
     },
     {
         "id":11,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"14"
     },
     {
         "id":12,
         "cnpj":"12345678910121",
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Paulo",
         "value":"11"
     },
     {
         "id":13,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Maria",
         "value":"15"
     },
     {
         "id":14,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"25"
     },
     {
         "id":15,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Rafael",
         "value":"24"
     },
     {
         "id":16,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"23"
     },
     {
         "id":17,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Maira",
         "value":"17"
     },
     {
         "id":18,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"José",
         "value":"11"
     },
     {
         "id":19,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Maria",
         "value":"20"
     },
     {
         "id":20,
-        "date":"XXXXXX",
+        "date":"01/01/9999",
+        "idpedido":"346",
+        "funcionario":"Paulo",
         "value":"10"
     }
 ]
