@@ -4,6 +4,8 @@ import ImageLogo from "../components/ImageLogo";
 import NewForm from "../components/NewForm";
 import TabelaEntregas from "../components/TabelaEntregas";
 import TabelaClientes from "../components/TabelaClientes";
+import Menu from "../components/Menu";
+import BtnLogOut from "../components/ButtonLogOut";
 
 
 const Pedidos = () => {
@@ -18,6 +20,8 @@ const Pedidos = () => {
     <>
       
       <ImageLogo />
+      <BtnLogOut/>
+      <Menu/>
       <NewForm />
 
       {mostrarTabelaClientes ? <TabelaClientes /> : <TabelaEntregas />}
