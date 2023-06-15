@@ -47,7 +47,7 @@ function TabelaClientes() {
 
   return (
     
-      <div className="container">
+      <div className="containerTable">
         
           <table {...getTableProps()}>
             <thead>

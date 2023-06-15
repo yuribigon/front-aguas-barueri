@@ -35,7 +35,7 @@ function TabelaEntregas() {
     return (
       <div>
         
-        <div className="container">
+        <div className="containerTable">
           <table {...getTableProps()}>
             <thead>
               {headerGroups.map((headerGroup) => (
