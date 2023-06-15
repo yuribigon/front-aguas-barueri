@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import TabelaClientes from "./components/TabelaCliente";
-import NewForm from "./components/NewForm";
-import "./App.css";
-import TabelaEntregas from "./components/TabelaEntrega";
-import ImageComponent from "./components/ImageLogo";
+import "../App.css";
+import ImageLogo from "../components/ImageLogo";
+import NewForm from "../components/NewForm";
+import TabelaEntregas from "../components/TabelaEntregas";
+import TabelaClientes from "../components/TabelaClientes";
 
-function App() {
+
+const Pedidos = () => {
   const [mostrarTabelaClientes, setMostrarTabelaClientes] = useState(true);
 
   const alternarTabela = () => {
@@ -14,10 +15,9 @@ function App() {
 
 
   return (
-    <div className="App">
+    <>
       
-      <ImageComponent src="https://www.aguabarueri.com.br/images/logo-aguabarueri.png" alt="logo-aguas-barueri"   />
-      
+      <ImageLogo />
       <NewForm />
 
       {mostrarTabelaClientes ? <TabelaClientes /> : <TabelaEntregas />}
@@ -28,8 +28,8 @@ function App() {
         </span>
       </button>
       
-    </div>
+    </>
   );
 }
 
-export default App;
+export default Pedidos;
