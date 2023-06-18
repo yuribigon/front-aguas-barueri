@@ -6,7 +6,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 export default function Menu() {
   return (
-    <Paper className="menu-paper" sx={{ width: 280, maxWidth: '100%', marginTop: 34 }}>
+    <Paper className="menu-paper" sx={{ width: 280, maxWidth: '100%', marginTop: 21, backgroundColor:'transparent', color: '#fff', bordeCollapse: 'colapse' }}>
       <MenuList>
         <MenuItem>
           <ListItemText>Clientes</ListItemText>
@@ -52,6 +52,15 @@ export default function Menu() {
         </MenuItem>
         <MenuItem>
           <ListItemText>Logs</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText>Outros</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText>Outros</ListItemText>
+        </MenuItem>
+        <MenuItem>
+          <ListItemText>Outros</ListItemText>
         </MenuItem>
       </MenuList>
     </Paper>

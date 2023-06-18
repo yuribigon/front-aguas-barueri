@@ -3,11 +3,6 @@ import * as React from "react";
 import { useTable } from "react-table";
 
 function TabelaClientes() {
-  // const [showTable, setShowTable] = React.useState(true);
-
-  // const toggleTable = () => {
-  //   setShowTable(!showTable);
-  // };
 
   const data = React.useMemo(() => fakeData, []);
   const columns = React.useMemo(
